@@ -1,17 +1,17 @@
 root {
     --background-color: darkblue;
-    --font-style: Helvetica;
+    --font-family: 'Times New Roman', Times, serif;
     --padding: 1rem;
 }
 
 nav {
-    background-color: var(--background-color);
-    padding: var(--padding);
+    background-color: darkblue;
+    padding: 10px;
 }
 nav a {
     color: white;
     display: block;
-    padding: var(--padding);
+    padding: 20px;
 }
 
 main {
@@ -20,24 +20,25 @@ main {
 
 h1 {
     color: darkblue;
-    font-family: var(--font-style);
+    font-family: var(--font-family)
 }
 main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
-    padding: var(--padding);
+    padding: 2px;
     box-shadow: 0 0 30px gray
 }
 p {
     padding: 0;
+    font-family: var(--font-family)
 }
 
 aside {
     width: 20em;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: var(--padding);
+    padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
