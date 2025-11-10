@@ -18,9 +18,19 @@ header, main, footer {
     margin: 0 auto;
 }
 
+nav a {
+    display: block;
+    color: black;
+    padding: 10px;
+}
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+}
+
+footer {
+    color: var(--secondary-color);
 }
 
 h1, h2 {
