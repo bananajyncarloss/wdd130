@@ -47,7 +47,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -58,7 +58,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 250px;
     left: -16px;
@@ -66,8 +66,8 @@ article {
     padding: 6px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+    background-color: var(--accent2-color);
+    color: black;
 }
 
 .hero article img {
