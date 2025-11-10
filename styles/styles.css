@@ -74,3 +74,18 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    clear: right;
+    background-color: #ddd;
+    color: #000
+}
+
+.indent {
+    padding: 2rem;
+}
