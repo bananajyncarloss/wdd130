@@ -53,12 +53,6 @@ body {
     color: var(--accent1-color);
 }
 
-footer {
-    color: var(--secondary-color);
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 
 h1, h2 {
     font-family: var(--heading-font);
