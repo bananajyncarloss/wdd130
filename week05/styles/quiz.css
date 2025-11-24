@@ -21,11 +21,18 @@ form {
 
 input,
 textarea,
-select {
+select, button {
     padding: .75rem;
     width: 350px;
 }
 
+button {
+    background-color: navy;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    border-radius: .5rem;
+}
 code {
     display: block;
     background-color: #000;
