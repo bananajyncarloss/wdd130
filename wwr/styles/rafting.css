@@ -18,19 +18,30 @@ header, main, footer {
     margin: 0 auto;
 }
 
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+    text-align: center;
+}
+
 header {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
   background-color: var(--accent2-color);
   padding: 1rem;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 header nav {
   display: flex;
   justify-content: flex-end;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 header nav a {
@@ -48,26 +59,46 @@ header nav a:hover {
   color: #000;
 }
 
-body {
-    font-family: var(--body-font);
-    color: var(--accent1-color);
+.hero {
+    position: relative;
 }
 
-
-h1, h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
     text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
 }
 
-section {
-    display: flex;
-    justify-content: space-around; 
+.hero h2 {
+  text-align: center;
+}
+
+.hero article {
+    position: absolute;
+    top: 250px;
+    left: -16px;
+    width: 100%;
+    padding: 6px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent2-color);
+    color: black;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
 }
 
 .history {
@@ -125,47 +156,28 @@ footer {
   margin-top: 2rem;
 }
 
-.socialmedia a{
-    text-decoration: none;
+footer p {
+  color: #000;
 }
 
-.hero {
-    position: relative;
+.socialmedia {
+  display: flex;
+  gap: 0.5rem;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+.socialmedia img {
+  width: 24px;
+  height: 24px;
 }
 
-.hero h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
+main h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #004e66;
+  margin-top: 1rem;
+  background-color: #c0e2db;
 }
 
-.hero article {
-    position: absolute;
-    top: 250px;
-    left: -16px;
-    width: 100%;
-    padding: 6px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent2-color);
-    color: black;
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
-}
 
 .contact-info, .contact-form {
   background-color: #f0f8ff;
