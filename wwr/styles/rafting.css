@@ -207,9 +207,10 @@ main h1 {
     gap: 10px;
 }
 
-.employees h2, .contact-info h2 {
-  color: #004e66;
+.employees h2, .contact-info h1 {
+  color: #055a05;
   text-align: center;
+  font-family: 'Luckiest Guy', cursive;
 }
 
 .employee-profiles {
