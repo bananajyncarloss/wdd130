@@ -4,108 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rapids: Rafting Company</title>
+    <title>Rapids: Rafting Company. Contact us to find out about our rates and amazing offers for you and your loved
+        ones.</title>
     <meta name="description"
-        content="About us: Rapids organizes trips, provides the watercraft, life jackets, etc., and typically offers experienced guides to take passengers down a river.">
+        content="You can contact Rapids: Rafting Company by going to out social media pages found at the bottom-right corner of the website">
     <meta name="author" content="Jyn Carlos Banaña">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <img src="images/z-rapids-trees.jpg" alt="Rapids Rafting Company" width="200">
-        <nav>
+        <nav class="nav">
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <main>
-        <h1>Contact Us!</h1>
-        <section class="contact-info">
-            <h2>Contact Information</h2>
-            <p>📍: 123 Rolling Rapid Road <br>Waterfall, MNL 2004</p>
-            <p>📲: Phone: (123) 456-7890</p>
-            <p>📧: Email: Contactus@Rapidsraftingcompany.com</p>
+    <section class="contact-info">
+        <h1>Rapids: Rafting Company</h1>
+        <p>📍: 123 Rolling Rapid Road <br>
+            Waterfall, MNL 2004 <br>
+            📲: Phone: (123) 456-7890 <br>
+            📧: Email: Contactus@Rapidsraftingcompany.com</p>
+    </section>
 
-            <div class="map-container">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.957102708849!2d121.06703747590413!3d14.601519577052484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7fce86c871b%3A0xc4f4f56e4b51e0f6!2sManila%20Philippines%20Temple!5e0!3m2!1sen!2sph!4v1754095097941!5m2!1sen!2sph"
-                    width="600" height="450" allowfullscreen loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
+    <section class="contact-section">
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.957102708849!2d121.06703747590413!3d14.601519577052484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7fce86c871b%3A0xc4f4f56e4b51e0f6!2sManila%20Philippines%20Temple!5e0!3m2!1sen!2sph!4v1754095097941!5m2!1sen!2sph"
+                width="600" height="450" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <form class="contact-form">
+            <fieldset>
+                <legend>Contact Information</legend>
 
-        <section class="employees">
-            <h2>Employee Profiles</h2>
-            <div class="employee-profiles">
-                <figure>
-                    <img src="images/manager-person.jpg" alt="Manager smiling">
-                    <figcaption>Manager</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/guide-person.jpg" alt="Guide smiling">
-                    <figcaption>Guide</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/instructor-person.jpg" alt="Instructor smiling">
-                    <figcaption>Instructor</figcaption>
-                </figure>
-            </div>
-        </section>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
 
-        <section class="contact-form">
-            <h2>Send Us a Message</h2>
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
 
-                    <div class="form-item column2">
-                        <label for="fullname">Full Name:</label>
-                        <input type="text" id="fullname" name="fullname" required>
-                    </div>
+                <legend>Message Details</legend>
 
-                    <div class="form-item column2">
-                        <label for="useremail">Email:</label>
-                        <input type="email" id="useremail" name="useremail" required>
-                    </div>
-                </fieldset>
+                <div class="radio-group">
+                    <p>Purpose of Message:</p>
+                    <label for="purpose-general">
+                        <input type="radio" id="purpose-general" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
+                    <label for="purpose-reservation">
+                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+                    <label for="purpose-website">
+                        <input type="radio" id="purpose-website" name="purpose" value="website">
+                        Website Suggestion
+                    </label>
+                </div>
 
-                <fieldset>
-                    <legend>Message Details</legend>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
+                    required></textarea>
+                </div>
 
-                    <div class="form-item column1">
-                        <p>Purpose of Message:</p>
-                        <label for="purpose-general">
-                            <input type="radio" id="purpose-general" name="purpose" value="general" required>
-                            General Inquiry
-                        </label>
-                        <label for="purpose-reservation">
-                            <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
-                            Reservation Question
-                        </label>
-                        <label for="purpose-website">
-                            <input type="radio" id="purpose-website" name="purpose" value="website">
-                            Website Suggestion
-                        </label>
-                    </div>
+                <div class="form-item column1">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+            </fieldset>
 
-                    <div class="form-item column1">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
-                            required></textarea>
-                    </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
-                    <div class="form-item column1">
-                        <input type="checkbox" id="subscribe" name="subscribe">
-                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                    </div>
-                </fieldset>
+    <section class="employees">
+        <h2>We Are Here To Serve You!</h2>
+        <div class="employee-profiles">
+            <figure>
+                <img src="images/manager-person.jpg" alt="Manager smiling">
+                <figcaption>Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/guide-person.jpg" alt="Guide smiling">
+                <figcaption>Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/instructor-person.jpg" alt="Instructor smiling">
+                <figcaption>Instructor</figcaption>
+            </figure>
+        </div>
+    </section>
 
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
+
     </main>
     <footer>
         <p> ©2025 | Rapids: Rafting Company | Jyn Carlos Banaña</p>

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    background-color: #c8a8d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.company-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.map-placeholder {
+    background: #eee;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radio-group label {
+    display: block;
+}
+
+textarea {
+    height: 70px;
+}
+
+button {
+    background-color: #c8a8d9;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.team-section {
+    background-color: #eee;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.employee-profile {
+    background: #ddd;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #c8a8d9;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
