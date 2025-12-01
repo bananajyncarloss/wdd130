@@ -239,14 +239,6 @@ main h1 {
   color: #333;
 }
 
-
-form fieldset {
-  border: 2px solid #0077cc;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  border-radius: 8px;
-}
-
 .radio-group label {
     display: block;
 }
@@ -538,7 +530,7 @@ form button[type="submit"]:hover {
 
 .trip-table h2 {
   font-family: 'Luckiest Guy', cursive;
-  color: #003366;
+  color: #055a05;
   margin-bottom: 1rem;
 }
 
@@ -547,7 +539,7 @@ form button[type="submit"]:hover {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
-  color: #003366; 
+  color: #055a05;
   font-weight: 900;
   text-transform: uppercase;
 }

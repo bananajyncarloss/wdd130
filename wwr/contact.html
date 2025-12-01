@@ -42,45 +42,43 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <form class="contact-form">
-            <fieldset>
-                <h3>Contact Information</h3>
+            <legend>Contact Information</legend>
 
-                <div class="form-item column2">
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname" required>
-                </div>
+            <div class="form-item column2">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
 
-                <div class="form-item column2">
-                    <label for="useremail">Email:</label>
-                    <input type="email" id="useremail" name="useremail" required>
-                </div>
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail" required>
+            </div>
 
-                <h3>Message Details</h3>
+            <legend>Message Details</legend>
 
-                <div class="radio-group">
-                    <p>Purpose of Message:</p>
-                    <label for="purpose-general">
-                        <input type="radio" id="purpose-general" name="purpose" value="general" required>
-                        General Inquiry
-                    </label>
-                    <label for="purpose-reservation">
-                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
-                        Reservation Question
-                    </label>
-                    <label for="purpose-website">
-                        <input type="radio" id="purpose-website" name="purpose" value="website">
-                        Website Suggestion
-                    </label>
-                </div>
+            <div class="radio-group">
+                <p>Purpose of Message:</p>
+                <label for="purpose-general">
+                    <input type="radio" id="purpose-general" name="purpose" value="general" required>
+                    General Inquiry
+                </label>
+                <label for="purpose-reservation">
+                    <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                    Reservation Question
+                </label>
+                <label for="purpose-website">
+                    <input type="radio" id="purpose-website" name="purpose" value="website">
+                    Website Suggestion
+                </label>
+            </div>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
-                    required></textarea>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
 
-                <div class="form-item column1">
-                    <input type="checkbox" id="subscribe" name="subscribe">
-                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                </div>
+            <div class="form-item column1">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+            </div>
             </fieldset>
 
             <button type="submit">Send Message</button>
