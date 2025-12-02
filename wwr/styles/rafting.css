@@ -77,7 +77,7 @@ header {
 
 .hero article {
     position: absolute;
-    top: 450px;
+    top: 500px;
     left: -16px;
     width: 100%;
     padding: 6px;
@@ -85,6 +85,10 @@ header {
     opacity: 0.8;
     background-color: var(--accent2-color);
     color: black;
+}
+
+.hero article h2 {
+  font-family: 'Luckiest Guy', cursive;
 }
 
 .hero article img {
